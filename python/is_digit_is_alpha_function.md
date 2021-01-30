@@ -1,6 +1,6 @@
-<h1>Python isdigit(), isalpha() built-in function</h1>
+<h1>Python str.isdigit(), str.isalpha() built-in function</h1>
 
-<h3>isdigit()</h3>
+<h3>str.isdigit()</h3>
 
 ```
 s1 = "123456789"
@@ -12,7 +12,7 @@ print(s2.isdigit()) # False
 
 <p>문자열이 모두 숫자인지 확인하는 함수이다.</p>
 
-<h3>isalpha()</h3>
+<h3>str.isalpha()</h3>
 
 ```
 s1 = "abcdefghi"

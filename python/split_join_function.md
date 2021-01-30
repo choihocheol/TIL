@@ -1,6 +1,6 @@
-<h1>Python split(), join() built-in function</h1>
+<h1>Python str.split(), str.join() built-in function</h1>
 
-<h3>split()</h3>
+<h3>str.split()</h3>
 
 ```
 a = '123 456 abc'
@@ -10,7 +10,7 @@ print(a.split()) # ['123', '456', 'abc']
 <p>문자열을 delimiter(split() function의 첫번째 argument)에 따라 구분하여 리스트로 만들어주는 함수이다.</p>
 <p>만약 delimiter가 공백이라면 default로 공백을 delimiter로 리스트로 만든다</p>
 
-<h3>join()</h3>
+<h3>str.join()</h3>
 
 ```
 a = ["123", "456", "abc"]
