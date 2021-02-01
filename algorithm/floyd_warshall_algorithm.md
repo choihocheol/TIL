@@ -4,6 +4,8 @@
 INF = int(1e9)
 
 nv, ne = 4, 7
+
+# Graph represented by adjacency matrix
 graph = [[INF for _ in range(nv+1)] for _ in range(nv+1)]
 for x in range(nv+1):
     for y in range(nv+1):
