@@ -7,6 +7,8 @@ INF = int(1e9)
 nv, ne = 6, 11
 source = 1
 distance = [INF] * (nv+1)
+
+# Graph represented by adjacency list
 graph = [
     [],
     [(2, 2), (3, 5), (4, 1)],
@@ -25,8 +27,8 @@ def dijkstra(source):
         dist, v = heapq.heappop(q)
         # 현재 노드가 이미 처리된 적이 있는 노드라면 무시
         # 한번 더 거치면 어차피 cost가 더 들기때문에 한번 거쳐간 vertex에 대해서는 고려하지않는다.
-		if dist > distance[v]:
-			continue
+        if dist > distance[v]:
+            continue
         for d, c in graph[v]:
             cost = dist + c
             if cost < distance[d]:
