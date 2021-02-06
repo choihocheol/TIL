@@ -47,5 +47,22 @@ for i in range(1, nv+1):
 <ul>
 	<li>Single Source Shortest Path Algorithm</li>
 	<li>Only Non-negative edge weights graph</li>
-	<li>Time Complexity: O(ElogV) => Graph의 모든 edges를 min heap에 넣었다가 빼는 연산과 매우 유사하다고 볼 수 있다.</li>
+	<li>Time Complexity: O(ElogE) or O(ElogV) => Graph의 모든 edges를 min heap에 넣었다가 빼는 연산과 매우 유사하다고 볼 수 있다.</li>
+	<li>The reason of O(ElogE) or O(ElogV)</li>
+	<ul>
+		<li>위 dijkstra algorithm(using min heap)은 graph의 모든 edges를 min heap에 넣었다가 빼는 연산과 매우 유사하다고 할 수 있다.</li>
+		<li>따라서 time complexity는 O(ElogE)가 된다.</li>
+		<li>하지만 graph의 edges의 수 특징에 따라서 아래와 같은 수식이 정의될 수 있다.</li>
+		<li>
+
+		```
+			E <= V²
+			logE < logV²
+			logE < 2logV
+		```
+
+		</li>
+		<li>Big-O notation은 asymptotic upper bound를 만족해야 하므로</li>
+		<li>해당 algorithm의 time complexity는 O(ElogV)가 더 알맞은 표현이다.</li>
+	</ul>
 </ul>
