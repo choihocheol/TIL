@@ -29,7 +29,8 @@
 
 <h3>Heap Segment</h3>
 <ul>
-    <li>Software engineer가 system call을 통해 동적으로 관리하는 영역이다.</li>
+    <li>Software engineer가 직접 system call을 통해 동적으로 관리하는 영역이다.</li>
+    <li>Heap segment에 저장된 variables는 전역에서 접근가능하다.</li>
     <li>메모리가 낮은주소에서 높은주소 방향으로 할당된다.</li>
     <li>Run time 시에 크기가 결정된다.</li>
     <li>주로 필요한 메모리의 크기를 예측하기 힘들때 사용한다.</li>
@@ -39,7 +40,8 @@
 <h3>Stack Segment</h3>
 <ul>
     <li>함수에서 local variables, arguments가 저장되는 영역이다.</li>
-    <li>함수 호출시에 할당되고, 함수가 끝나면 반환된다.</li>
+    <li>OS에 의해 자동으로 함수 호출시에 할당되고, 함수가 끝나면 반환된다.</li>
+    <li>Stack segment에 저장된 variables는 local에서만 접근가능하다.</li>
     <li>메모리가 높은주소에서 낮은주소 방향으로 할당된다.</li>
     <li>Compile 시에 크기가 결정된다.</li>
     <li>Heap보다 빠르다. 그 이유는 stack frames가 연속적으로 메모리에 저장되어있고, 그 크기도 이미 다 알고있기때문에 CPU는 그저 주소값에서 더하기 혹은 빼기 연산만 하면되기 때문이다.</li>
