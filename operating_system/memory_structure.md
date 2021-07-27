@@ -45,7 +45,7 @@
     <li>Heap보다 빠르다. 그 이유는 stack frames가 연속적으로 메모리에 저장되어있고, 그 크기도 이미 다 알고있기때문에 CPU는 그저 주소값에서 더하기 혹은 빼기 연산만 하면되기 때문이다.</li>
 </ul>
 
-<h3>Overflow In Stack And Heap</h3>
+<h3>Overflow in Stack and Heap</h3>
 <ul>
     <li>Stack segment에서 메모리가 높은주소에서 낮은주소 방향으로 할당되다가 heap segment를 침범할 수 있다. 이것을 <b>stack overflow</b>라고 한다.</li>
     <li>Heap segment에서 메모리가 낮은주소에서 높은주소 방향으로 할당되다가 stack segment를 침범할 수 있다. 이것을 <b>heap overflow</b>라고 한다.</li>
