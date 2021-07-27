@@ -39,7 +39,7 @@
 
 <h3>Stack Segment</h3>
 <ul>
-    <li>함수에서 local variables, arguments가 저장되는 영역이다.</li>
+    <li>함수에서 local variables, parameters가 저장되는 영역이다.</li>
     <li>OS에 의해 자동으로 함수 호출시에 할당되고, 함수가 끝나면 반환된다.</li>
     <li>Stack segment에 저장된 variables는 local에서만 접근가능하다.</li>
     <li>메모리가 높은주소에서 낮은주소 방향으로 할당된다.</li>
