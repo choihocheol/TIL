@@ -1,2 +1,6 @@
-# TIL
-배운 것들을 잊고 싶지 않아 끄적이는 repository입니다.
+<h1>TIL</h1>
+
+<h3>Algorithm</h3>
+<ul>
+    <li><a href="https://github.com/choihocheol/TIL/blob/main/algorithm/bubble_sort.md">Bubble Sort</a></li>
+</ul>
