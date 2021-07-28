@@ -20,6 +20,7 @@ int main() {
 ```
 
 ```
+// 실행결과
 allocAddr() => 0x7ffee887485c
 main() => 0x7ffee887485c
 ```
