@@ -1,6 +1,5 @@
 <h1>Bubble Sort</h1>
-
-```python
+```abc
 def bubbleSort(arr):
     n = len(arr)
     for i in range(n):
