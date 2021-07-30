@@ -18,7 +18,6 @@ bubbleSort(arr)
 print(arr)
 ```
 
-hello
 <ul>
 	<li>Stable Sort</li>
 	<li>Time Complexity</li>
