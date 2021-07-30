@@ -1,6 +1,6 @@
 <h1>Floyd Warshall Algorithm</h1>
 
-```
+```python
 INF = int(1e9)
 
 nv, ne = 4, 7
