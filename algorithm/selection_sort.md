@@ -1,6 +1,6 @@
 <h1>Selection Sort</h1>
 
-```
+```python
 def selectionSort(arr):
     n = len(arr)
     for i in range(n):
