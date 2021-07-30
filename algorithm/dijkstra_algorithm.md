@@ -1,6 +1,6 @@
 <h1>Dijkstra Algorithm(Using min heap)</h1>
 
-```
+```python
 import heapq
 INF = int(1e9)
 
