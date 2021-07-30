@@ -1,6 +1,6 @@
 <h1>Insertion Sort</h1>
 
-```
+```python
 def insertionSort(arr):
     n = len(arr)
     for i in range(1, n):
