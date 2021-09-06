@@ -18,14 +18,3 @@
 		<li>f(x) <= c * g(x)를 증명할 수 있는 c를 찾으면 참이다.</li>
 	</ul>
 </ul>
-
-<h3>Time Complexity</h3>
-<ul>
-	<li>Python 기준 1초에 2000만 번의 연산을 수행한다고 가정하면 크게 무리가 없다.</li>
-	<li>코딩테스트에서 python을 사용했을때 시간초과가 된다면 pypy3를 사용해보자.</li>
-</ul>
-
-<h3>Space Complexity</h3>
-<ul>
-	<li>Python 기준 list의 크기가 1000만 정도이면 40MB이다. 그러므로 list 하나의 크기가 1000만 이상인것이 존재한다면 다시 생각해보자.</li>
-</ul>
