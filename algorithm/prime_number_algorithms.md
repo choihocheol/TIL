@@ -36,7 +36,6 @@ int main() {
     <li>Time Complexity: O(√N)</li>
 </ul>
 
-
 <h3>에라토스테네스의 체</h3>
 
 ```c++
