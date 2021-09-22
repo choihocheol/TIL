@@ -8,6 +8,7 @@
     <li><a href="https://github.com/choihocheol/TIL/blob/main/algorithm/selection_sort.md">Selection Sort</a></li>
     <li><a href="https://github.com/choihocheol/TIL/blob/main/algorithm/dijkstra_algorithm.md">Dijkstra Algorithm</a></li>
     <li><a href="https://github.com/choihocheol/TIL/blob/main/algorithm/floyd_warshall_algorithm.md">Floyd Warshall Algorithm</a></li>
+    <li><a href="https://github.com/choihocheol/TIL/blob/main/algorithm/prime_number_algorithms.md">소수 판별 알고리즘들</a></li>
 </ul>
 
 <h3>Data Structure</h3>
