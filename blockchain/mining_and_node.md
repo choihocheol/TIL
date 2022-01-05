@@ -54,7 +54,7 @@ EOS의 트랜잭션 수수료는 없다.
 
 ### 트랜잭션에서 Two Phase Commit 이란 무엇인가요?
 
-https://dongwooklee96.github.io/post/2021/03/26/two-phase-commit-%EC%9D%B4%EB%9E%80/
+[참고](https://dongwooklee96.github.io/post/2021/03/26/two-phase-commit-%EC%9D%B4%EB%9E%80/)
 
 ### 소위 응용레벨에서 RPC 방식과 스트리밍 방식의 차이점은 무엇인가요?
 
@@ -63,7 +63,7 @@ https://dongwooklee96.github.io/post/2021/03/26/two-phase-commit-%EC%9D%B4%EB%9E
 
 ### 동기, 비동기, 블록, 논블록은 무엇이라고 생각하나요?
 
-https://deveric.tistory.com/99
+[참고](https://deveric.tistory.com/99)
 
 - **동기(Synchronous)**: 서로 다른 두개의 작업A와 B가 있을때 두 작업 모두 동시에 시작하고 동시에 끝나거나, A 작업이 끝나는 시간과 작업B를 시작하는 시간이 같으면 synchronous를 만족한다.
 - **비동기(Asynchronous)**: 서로 다른 두개의 작업A와 B가 있을때 두 작업이 각각의 작업이 시작되는 시간, 작업이 끝나는 시간을 가진다면 asynchronous를 만족한다.
@@ -88,7 +88,7 @@ PoW에서 GHOST protocol로 인한 블록이 제거되는경우를 제외하면 
 
 ### P2P 네트워크에서 피어 검색은 어떻게 동작하나요?
 
-http://tutorials.jenkov.com/p2p/finding-peers.html
+[참고](http://tutorials.jenkov.com/p2p/finding-peers.html)
 
 ### 하드 포크와 소프트 포크는 무엇인가요?
 
